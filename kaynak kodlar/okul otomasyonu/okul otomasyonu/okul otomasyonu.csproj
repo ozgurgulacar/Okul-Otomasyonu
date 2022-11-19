@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9729B2E1-B056-4CE5-BFE7-5AC881777C50}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>okul_otomasyonu</RootNamespace>
+    <AssemblyName>okul otomasyonu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bilgigüncelleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bilgigüncelleme.Designer.cs">
+      <DependentUpon>bilgigüncelleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dersprogramı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dersprogramı.Designer.cs">
+      <DependentUpon>dersprogramı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="devamdetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="devamdetay.Designer.cs">
+      <DependentUpon>devamdetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DEVAMHOCA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DEVAMHOCA.Designer.cs">
+      <DependentUpon>DEVAMHOCA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="donemsonu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="donemsonu.Designer.cs">
+      <DependentUpon>donemsonu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MESAJLAR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MESAJLAR.Designer.cs">
+      <DependentUpon>MESAJLAR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mudur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mudur.Designer.cs">
+      <DependentUpon>mudur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ogrencinot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ogrencinot.Designer.cs">
+      <DependentUpon>ogrencinot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ogretmenisl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ogretmenisl.Designer.cs">
+      <DependentUpon>ogretmenisl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ogrislem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ogrislem.Designer.cs">
+      <DependentUpon>ogrislem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="vtsınıfı.cs" />
+    <Compile Include="yılsonu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yılsonu.Designer.cs">
+      <DependentUpon>yılsonu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ÖĞREG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ÖĞREG.Designer.cs">
+      <DependentUpon>ÖĞREG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="öğrenci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="öğrenci.Designer.cs">
+      <DependentUpon>öğrenci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="öğretmen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="öğretmen.Designer.cs">
+      <DependentUpon>öğretmen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bilgigüncelleme.resx">
+      <DependentUpon>bilgigüncelleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dersprogramı.resx">
+      <DependentUpon>dersprogramı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="devamdetay.resx">
+      <DependentUpon>devamdetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DEVAMHOCA.resx">
+      <DependentUpon>DEVAMHOCA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="donemsonu.resx">
+      <DependentUpon>donemsonu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MESAJLAR.resx">
+      <DependentUpon>MESAJLAR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mudur.resx">
+      <DependentUpon>mudur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ogrencinot.resx">
+      <DependentUpon>ogrencinot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ogretmenisl.resx">
+      <DependentUpon>ogretmenisl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ogrislem.resx">
+      <DependentUpon>ogrislem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="yılsonu.resx">
+      <DependentUpon>yılsonu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ÖĞREG.resx">
+      <DependentUpon>ÖĞREG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="öğrenci.resx">
+      <DependentUpon>öğrenci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="öğretmen.resx">
+      <DependentUpon>öğretmen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App1.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\müdür giriş.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\müdürlük.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tahtakara.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\öğretmen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\öğrenci.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

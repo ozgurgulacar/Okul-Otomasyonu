@@ -1,0 +1,24 @@
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\bin\Debug\okul otomasyonu.exe.config
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\bin\Debug\okul otomasyonu.exe
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\bin\Debug\okul otomasyonu.pdb
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul otomasyonu.csprojAssemblyReference.cache
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul_otomasyonu.Form1.resources
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul_otomasyonu.Properties.Resources.resources
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul otomasyonu.csproj.GenerateResource.cache
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul otomasyonu.exe
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul otomasyonu.pdb
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul_otomasyonu.mudur.resources
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul_otomasyonu.öğrenci.resources
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul_otomasyonu.öğretmen.resources
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul_otomasyonu.bilgigüncelleme.resources
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul_otomasyonu.ogrislem.resources
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul_otomasyonu.ogretmenisl.resources
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul_otomasyonu.ÖĞREG.resources
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul_otomasyonu.MESAJLAR.resources
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul_otomasyonu.dersprogramı.resources
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul_otomasyonu.devamdetay.resources
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul_otomasyonu.DEVAMHOCA.resources
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul_otomasyonu.ogrencinot.resources
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul_otomasyonu.donemsonu.resources
+C:\Users\ozgur\source\repos\okul otomasyonu\okul otomasyonu\obj\Debug\okul_otomasyonu.yılsonu.resources

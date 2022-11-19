@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "okul otomasyonu", "okul otomasyonu\okul otomasyonu.csproj", "{9729B2E1-B056-4CE5-BFE7-5AC881777C50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9729B2E1-B056-4CE5-BFE7-5AC881777C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9729B2E1-B056-4CE5-BFE7-5AC881777C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9729B2E1-B056-4CE5-BFE7-5AC881777C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9729B2E1-B056-4CE5-BFE7-5AC881777C50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEC031BF-55FE-4651-9A67-659847484F13}
+	EndGlobalSection
+EndGlobal
